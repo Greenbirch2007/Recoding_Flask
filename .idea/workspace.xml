@@ -12,14 +12,14 @@
     <session id="1712540230">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,43 +45,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2508">
-              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-                <marker date="1534907930015" expanded="true" signature="214:219" ph="..." />
-                <marker date="1534907930015" expanded="true" signature="285:290" ph="..." />
-                <marker date="1534907930015" expanded="true" signature="403:408" ph="..." />
-                <marker date="1534907930015" expanded="true" signature="1115:3720" ph="..." />
-                <marker date="1534907930015" expanded="true" signature="3564:3720" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Flask_practice/lib/python3.5/site-packages/flask/helpers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3344">
-              <caret line="200" column="4" selection-start-line="200" selection-start-column="4" selection-end-line="200" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,28 +105,6 @@
               <item name="传统Flask项目目录结构" type="462c0819:PsiDirectoryNode" />
               <item name="projectname" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="传统Flask项目目录结构" type="462c0819:PsiDirectoryNode" />
-              <item name="projectname" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="传统Flask项目目录结构" type="462c0819:PsiDirectoryNode" />
-              <item name="projectname" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="传统Flask项目目录结构" type="462c0819:PsiDirectoryNode" />
-              <item name="projectname" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/web_monitor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Flask1.0—test" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -254,9 +196,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="714" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24924242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,6 +212,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Mongo Explorer" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,40 +243,25 @@
     <entry file="file://$PROJECT_DIR$/传统Flask项目目录结构/projectname/tests/test1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Flask_practice/lib/python3.5/site-packages/flask/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Flask_practice/lib/python3.5/site-packages/flask/__init__.py" />
     <entry file="file://$PROJECT_DIR$/传统Flask项目目录结构/projectname/config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/Flask_practice/lib/python3.5/site-packages/flask/helpers.py" />
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2508">
+        <state relative-caret-position="497">
           <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
           <folding>
             <element signature="e#24#38#0" expanded="true" />
-            <marker date="1534907930015" expanded="true" signature="214:219" ph="..." />
-            <marker date="1534907930015" expanded="true" signature="285:290" ph="..." />
-            <marker date="1534907930015" expanded="true" signature="403:408" ph="..." />
-            <marker date="1534907930015" expanded="true" signature="1115:3720" ph="..." />
-            <marker date="1534907930015" expanded="true" signature="3564:3720" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Flask_practice/lib/python3.5/site-packages/flask/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3344">
-          <caret line="200" column="4" selection-start-line="200" selection-start-column="4" selection-end-line="200" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
         </state>
       </provider>
     </entry>
