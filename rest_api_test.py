@@ -212,25 +212,71 @@
 #python 装饰器 Flask框架和Flask - Script介绍
 # https://blog.csdn.net/twc829/article/details/52154214
 
-def log(level,*args,**kwargs):
-    def inner(func):
-        def wrapper(*args,**kwargs):
-            print(level,":before calling ",func.__name__)
-            print(level,':args:',args,'kvargs:',kwargs)
-            func(*args,**kwargs)
-            print(level,':after calling',func.__name__)
-            print('')
-        return wrapper
-    return inner
+# def log(level,*args,**kwargs):
+#     def inner(func):
+#         def wrapper(*args,**kwargs):
+#             print(level,":before calling ",func.__name__)
+#             print(level,':args:',args,'kvargs:',kwargs)
+#             func(*args,**kwargs)
+#             print(level,':after calling',func.__name__)
+#             print('')
+#         return wrapper
+#     return inner
+#
+# @log(level='INFO')
+# def hello(name,msg):
+#     print('hello',name,msg)
+#
+#
+#
+#
+# if __name__=='__main__':
+#     hello(name='nowcoder',msg='i miss you~')
+#
 
-@log(level='INFO')
-def hello(name,msg):
-    print('hello',name,msg)
+
+# 导入flask模块的Flask类
+from flask import Flask
+
+# 定义一个应用，一个网站就是一个应用
+app = Flask(__name__)
+
+
+# 指定一个路径的映射
+# @app.route('/')
+# def index():
+#     return 'hello'
+
+
+# 多映射
+# @app.route('/')
+# @app.route('/index')
+# def index():
+#     return 'hello'
+#
 
 
 
 
-if __name__=='__main__':
-    hello(name='nowcoder',msg='i miss you~')
+
+# 传递传参数变量<>
+# @app.route('/profile/<uid>')
+# def profile(uid):
+#     return 'profile: ' + uid
+
+
+
+
+# 转化profile/后接收的数据类型
+@app.route('/profile/<int:uid>')
+def profile(uid):
+    return 'profile: ' + str(uid) #注意要是字符串
+
+
+
+
+if __name__ == '__main__':
+    # 运行，开启debug模式
+    app.run(debug=True)
 
 
