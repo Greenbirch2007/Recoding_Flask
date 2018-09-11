@@ -1,0 +1,7 @@
+基本配置
+把出错信息通过电子邮件发送给管理者
+注入请求信息
+其他库
+
+
+Flask 使用标准 Python logging 。所有 Flask 相关消息都记录于 'flask' 日志记录器命令空间。 Flask.logger 可返回名为 'flask.app' 的日 志记录器，可用于应用的日志记录。:

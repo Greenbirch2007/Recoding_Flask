@@ -1,0 +1,61 @@
+配置入门
+环境和调试特征
+内置配置变量
+使用配置文件
+使用环境变量来配置
+配置的最佳实践
+开发/生产
+实例文件夹
+
+配置入门
+config 实质上是一个字典的子类，可以像字典一样操作:
+
+app = Flask(__name__)
+app.config['TESTING'] = True
+某些配置值还转移到了 Flask 对象中，可以直接通过 Flask 来操作:
+
+app.testing = True
+一次更新多个配置值可以使用 dict.update() 方法:
+
+app.config.update(
+    TESTING=True,
+    SECRET_KEY=b'_5#y2L"F4Q8z\n\xec]/'
+
+
+
+内置配置变量
+
+
+ENV 应用运行于什么环境。 缺省值： 'production'
+DEBUG  是否开启调试模式。 缺省值：当 ENV 是 'development' 时，为 True ；否则为 False 。
+TESTING  开启测试模式。 缺省值： False
+PROPAGATE_EXCEPTIONS   异常会重新引发而不是被应用的错误处理器处理。 缺省值： None
+PRESERVE_CONTEXT_ON_EXCEPTION  当异常发生时，不要弹出请求情境。  缺省值： None
+TRAP_HTTP_EXCEPTIONS 如果没有处理 HTTPException 类型异常的处理器，重新引发该异常用于被 交互调试器处理，而不是作为一个简单的错误响应来返回。 缺省值： False
+TRAP_BAD_REQUEST_ERRORS 尝试操作一个请求字典中不存在的键，如 args 和 form ，会返回一个 400 Bad Request error 页面。
+SECRET_KEY 密钥用于会话 cookie 的安全签名，并可用于应用或者扩展的其他安全需求。
+SESSION_COOKIE_NAME 会话 cookie 的名称。 缺省值： 'session'
+SESSION_COOKIE_DOMAIN 认可会话 cookie 的域的匹配规则。
+SESSION_COOKIE_PATH 认可会话 cookie 的路径。
+SESSION_COOKIE_HTTPONLY 为了安全，浏览器不会允许 JavaScript 操作标记为“ HTTP only ”的 cookie 。
+
+
+SESSION_COOKIE_SECURE 如果 cookie 标记为“ secure ”，那么浏览器只会使用基于 HTTPS 的请求发 送 cookie 。应用必须使用 HTTPS 服务来启用本变量。
+SESSION_COOKIE_SAMESITE   限制来自外部站点的请求如何发送 cookie 。
+PERMANENT_SESSION_LIFETIME 如果 session.permanent 为真， cookie 的有效期为本变量设置的数字， 单位为秒。
+SESSION_REFRESH_EACH_REQUEST 当 session.permanent 为真时，控制是否每个响应都发送 cookie 。
+USE_X_SENDFILE  当使用 Flask 提供文件服务时，设置 X-Sendfile 头部。
+SEND_FILE_MAX_AGE_DEFAULT  当提供文件服务时，设置缓存，控制最长存活期，以秒为单位。
+SERVER_NAME 通知应用其所绑定的主机和端口。子域路由匹配需要本变量。
+APPLICATION_ROOT  通知应用应用的根路径是什么。缺省值： '/'
+PREFERRED_URL_SCHEME 当不在请求情境内时使用些预案生成外部 URL 。 缺省值： 'http'
+MAX_CONTENT_LENGTH 在进来的请求数据中读取的最大字节数。
+JSON_AS_ASCII 把对象序列化为 ASCII-encoded JSON 。
+JSON_SORT_KEYS 按字母排序 JSON 对象的键。
+JSONIFY_PRETTYPRINT_REGULAR jsonify 响应会输出新行、空格和缩进以便于阅读。在调试模式下总是启用 的。
+JSONIFY_MIMETYPE jsonify 响应的媒体类型。  缺省值： 'application/json'
+TEMPLATES_AUTO_RELOAD 当模板改变时重载它们。如果没有配置，在调试模式下会启用。
+EXPLAIN_TEMPLATE_LOADING 记录模板文件如何载入的调试信息。使用本变量有助于查找为什么模板没有载入 或者载入了错误的模板的原因。
+MAX_COOKIE_SIZE 当 cookie 头部大于本变量配置的字节数时发出警告。缺省值为 4093 。
+
+大多数应用需要一个以上的配置。最起码需要一个配置用于生产服务器，另一个配置 用于开发。

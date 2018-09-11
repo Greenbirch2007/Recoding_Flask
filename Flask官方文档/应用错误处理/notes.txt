@@ -1,0 +1,43 @@
+错误日志工具
+错误处理
+日志
+有疑问时，请手动运行
+使用调试器
+
+
+错误日志工具¶
+当足够多的用户触发了错误时，发送关于出错信息的邮件，即使仅包含严重错误的邮 件也会是一场空难。更不用提从来不会去看的日志文件了。 因此，推荐使用 Sentry 来处理应用错误。它可 以在一个开源项目 on GitHub 中获得， 也可以在 hosted version 中免费试用。 Sentry 统计重复错误，捕获堆栈数据和本地变量用于排错，并在发生新的或者指定 频度的错误时发送电子邮件。
+
+要使用 Sentry 需要安装带有 flask 依赖的 raven 客户端:
+
+$ pip install raven[flask]
+
+使用调试器
+为了更深入的挖掘错误，追踪代码的执行， Flask 提供一个开箱即用的调试器（参 见 调试模式 ）。如果你需要使用其他 Python 调试器，请注意调试器之 间的干扰问题。在使用你自己的调试器前要做一些参数调整：
+
+debug - 是否开启调试模式并捕捉异常
+use_debugger - 是否使用 Flask 内建的调试器
+use_reloader - 出现异常后是否重载或者派生进程
+debug 必须设置为 True （即必须捕获异常），另两个随便。
+
+如果你正在使用 Aptana 或 Eclipse 排错，那么 use_debugger 和 use_reloader 都必须设置为 False 。
+
+一个有用的配置模式如下（当然要根据你的应用调整缩进）:
+
+FLASK:
+    DEBUG: True
+    DEBUG_WITH_APTANA: True
+然后，在应用入口（ main.py ），修改如下:
+
+if __name__ == "__main__":
+    # To allow aptana to receive errors, set use_debugger=False
+    app = create_app(config="config.yaml")
+
+    if app.debug: use_debugger = True
+    try:
+        # Disable Flask's debugger if external debugger is requested
+        use_debugger = not(app.config.get('DEBUG_WITH_APTANA'))
+    except:
+        pass
+    app.run(use_debugger=use_debugger, debug=app.debug,
+            use_reloader=use_debugger, host='0.0.0.0')
