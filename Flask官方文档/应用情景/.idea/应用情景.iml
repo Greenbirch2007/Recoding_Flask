@@ -4,6 +4,15 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6 (Python3.6_BIGOEN)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="请求情景" />
+    <orderEntry type="module" module-name="使用蓝图的模块化应用" />
+    <orderEntry type="module" module-name="扩展" />
+    <orderEntry type="module" module-name="命令行接口" />
+    <orderEntry type="module" module-name="开发服务器" />
+    <orderEntry type="module" module-name="在shell中使用Flask" />
+    <orderEntry type="module" module-name="部署" />
+    <orderEntry type="module" module-name="大型应用" />
+    <orderEntry type="module" module-name="API" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

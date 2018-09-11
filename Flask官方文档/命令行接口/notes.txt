@@ -1,0 +1,87 @@
+探索应用
+flask 命令由 Flask 安装，而不是你的应用。为了可以使用，它必须被告知可 以在哪里找到你的应用。 FLASK_APP 环境变量用于定义如何载入应用。
+
+Unix Bash （ Linux 、Mac 及其他）:
+
+$ export FLASK_APP=hello
+$ flask run
+
+FLASK_APP=hello
+名称被导入，自动探测一个应用（ app ）或者工厂（ create_app ）。
+FLASK_APP 分三个部分：一是一个可选路径，用于设置当前工作文件夹；
+二是一 个 Python 文件或者带点的导入路径；三是一个可选的实例或工厂的变量名称。
+如果 名称是工厂，则可以选择在后面的括号中加上参数。以下演示说明：
+
+运行开发服务器
+run 命令可以启动开发服务器，它在大多数情况下替代 Flask.run() 方法。:
+
+$ flask run
+ * Serving Flask app "hello"
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+
+ 打开一个 Shell
+为了探索应用中的数据，可以 shell 命令开启一个 交互 Python shell 。这样，一个应用情境被激活，应用实例会被导入。:
+
+$ flask shell
+Python 3.6.2 (default, Jul 20 2017, 03:52:27)
+[GCC 7.1.1 20170630] on linux
+App: example
+Instance: /home/user/Projects/hello/instance
+>>>
+使用 shell_context_processor() 添加其他自动导入。
+
+
+探索应用
+
+$ export FLASK_APP=hello
+$ flask run
+
+
+运行开发服务器
+
+$ flask run
+
+
+打开一个 Shell
+
+$ flask shell
+
+
+
+环境
+
+Flask 应用所运行的环境由 FLASK_ENV 环境变更指定。如果配置该变量， 那么缺省为 production 。
+另一个可用的环境值是 development 。 Flask 和扩展可能基于环境不同而改变行为。
+
+如果环境是 development ， flask 命令会开启调试模式并且 flask run 会开启交互调试器和重启器。
+
+
+
+
+调试模式
+
+如前文所述，当 FLASK_ENV 是 development 时会开启调试模式。
+如果想要单独控制调试模式，要使用 FLASK_DEBUG 。值为 1 表示开启， 0 表示关闭。
+
+
+通过 dotenv 设置环境变量
+
+export FLASK_RUN_PORT=8000
+flask run
+ * Running on http://127.0.0.1:8000/
+
+通过 virturalenv 设置环境变量
+
+如果检测到 dotenv 文件，但是没有安装 python-dotenv ，那么 flask 命令会 显示一个消息。
+
+自定义命令
+插件
+自定义脚本
+PyCharm 集成
+
+PyCharm 集成
+在 PyCharm 2018.1 版本之前， Flask CLI 功能尚未能完全整合进 PyCharm ，因此 我们必需做些调整才能顺利使用。这些说明同样也适用于其他 IDE 。
+
+在 PyCharm 中，打开你的项目，在菜单中点击 Run 后点击 Edit Configurations 。你会看到类似如下窗口：
+

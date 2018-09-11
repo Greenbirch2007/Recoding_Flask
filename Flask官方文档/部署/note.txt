@@ -1,0 +1,31 @@
+托管选项
+自主部署选项
+独立 WSGI 容器
+Gunicorn
+uWSGI
+Gevent
+Twisted Web
+代理设置
+uWSGI
+使用 uwsgi 启动你的应用
+配置 nginx
+mod_wsgi (Apache)
+安装 mod_wsgi
+创建一个 .wsgi 文件
+配置 Apache
+故障排除
+支持自动重载
+使用虚拟环境
+FastCGI
+创建一个 .fcgi 文件
+配置 Apache
+配置 lighttpd
+配置 nginx
+运行 FastCGI 进程
+调试
+CGI
+创建一个 .cgi 文件
+服务器设置
+部署方式
+托管选项
+自主部署选项

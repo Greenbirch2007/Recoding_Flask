@@ -1,0 +1,14 @@
+大型应用
+对于大型应用来说使用包代替模块是一个好主意。使用包非常简单。假设有一个小应 用如下:
+
+/yourapplication
+    yourapplication.py
+    /static
+        style.css
+    /templates
+        layout.html
+        index.html
+        login.html
+        ...
+
+   简单的包

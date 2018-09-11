@@ -1,0 +1,18 @@
+通过命令行使用开发服务器
+强烈推荐开发时使用 flask 命令行脚本（ 命令行接口 ），因为有强大 的重载功能，提供了超好的重载体验。基本用法如下:
+
+$ export FLASK_APP=my_application
+$ export FLASK_ENV=development
+$ flask run
+
+
+通过使用不同 run 参数可以控制服务器的单独功能。例如禁用重载器:
+
+$ flask run --no-reload
+通过代码使用开发服务器
+另一种方法是通过 Flask.run() 方法启动应用，这样立即运行一个本地服务 器，与使用 flask 脚本效果相同。
+
+示例:
+
+if __name__ == '__main__':
+    app.run()

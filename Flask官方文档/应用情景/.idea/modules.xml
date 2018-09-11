@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../API/.idea/API.iml" filepath="$PROJECT_DIR$/../API/.idea/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../使用蓝图的模块化应用/.idea/使用蓝图的模块化应用.iml" filepath="$PROJECT_DIR$/../使用蓝图的模块化应用/.idea/使用蓝图的模块化应用.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../命令行接口/.idea/命令行接口.iml" filepath="$PROJECT_DIR$/../命令行接口/.idea/命令行接口.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../在shell中使用Flask/.idea/在shell中使用Flask.iml" filepath="$PROJECT_DIR$/../在shell中使用Flask/.idea/在shell中使用Flask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../大型应用/.idea/大型应用.iml" filepath="$PROJECT_DIR$/../大型应用/.idea/大型应用.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/应用情景.iml" filepath="$PROJECT_DIR$/.idea/应用情景.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../开发服务器/.idea/开发服务器.iml" filepath="$PROJECT_DIR$/../开发服务器/.idea/开发服务器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../扩展/.idea/扩展.iml" filepath="$PROJECT_DIR$/../扩展/.idea/扩展.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../请求情景/.idea/请求情景.iml" filepath="$PROJECT_DIR$/../请求情景/.idea/请求情景.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../部署/.idea/部署.iml" filepath="$PROJECT_DIR$/../部署/.idea/部署.iml" />
     </modules>
   </component>
 </project>

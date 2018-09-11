@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6bb432-d98c-4159-97db-991f8f65ce27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/应用情景.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../可插拔视图/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../可插拔视图/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API/.idea/API.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../API/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../命令行接口/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../命令行接口/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../命令行接口/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../命令行接口/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../命令行接口/.idea/命令行接口.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在shell中使用Flask/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在shell中使用Flask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在shell中使用Flask/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在shell中使用Flask/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../在shell中使用Flask/.idea/在shell中使用Flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../大型应用/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../大型应用/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../大型应用/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../大型应用/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../大型应用/.idea/大型应用.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../开发服务器/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../开发服务器/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../开发服务器/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../开发服务器/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../开发服务器/.idea/开发服务器.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../扩展/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../扩展/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../扩展/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../扩展/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../扩展/.idea/扩展.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../部署/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../部署/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../部署/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../部署/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../部署/.idea/部署.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/应用情景.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/应用情景.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,52 +51,77 @@
     <session id="483624325">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="10" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2" />
-          <entry key="txt" value="44" />
+          <entry key="py" value="35" />
+          <entry key="txt" value="185" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="185" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notes.txt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../在shell中使用Flask/example.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../在shell中使用Flask/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example.py">
+        <entry file="file://$PROJECT_DIR$/../部署/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="445">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../大型应用/note.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../API/note.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7600">
+              <caret line="400" column="13" selection-start-line="400" selection-start-column="13" selection-end-line="400" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,6 +136,18 @@
       <list>
         <option value="$PROJECT_DIR$/example.py" />
         <option value="$PROJECT_DIR$/notes.txt" />
+        <option value="$PROJECT_DIR$/../请求情景/notes.txt" />
+        <option value="$PROJECT_DIR$/../请求情景/example.py" />
+        <option value="$PROJECT_DIR$/../使用蓝图的模块化应用/notes.txt" />
+        <option value="$PROJECT_DIR$/../使用蓝图的模块化应用/example.py" />
+        <option value="$PROJECT_DIR$/../扩展/notes.txt" />
+        <option value="$PROJECT_DIR$/../扩展/example.py" />
+        <option value="$PROJECT_DIR$/../命令行接口/notes.txt" />
+        <option value="$PROJECT_DIR$/../开发服务器/notes.txt" />
+        <option value="$PROJECT_DIR$/../在shell中使用Flask/note.txt" />
+        <option value="$PROJECT_DIR$/../部署/note.txt" />
+        <option value="$PROJECT_DIR$/../大型应用/note.txt" />
+        <option value="$PROJECT_DIR$/../API/note.txt" />
       </list>
     </option>
   </component>
@@ -96,7 +163,9 @@
     <option name="width" value="1336" />
     <option name="height" value="680" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -109,6 +178,38 @@
               <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
               <item name="应用情景" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="使用蓝图的模块化应用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="命令行接口" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="在shell中使用Flask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="大型应用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="扩展" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="请求情景" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="应用情景" type="b2602c69:ProjectViewProjectNode" />
+              <item name="部署" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -118,7 +219,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Flask 的设计思路" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -152,15 +253,9 @@
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2439394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -168,13 +263,43 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2439394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -194,6 +319,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../请求情景/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3519">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../使用蓝图的模块化应用/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#5#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../使用蓝图的模块化应用/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../请求情景/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../扩展/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../扩展/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../命令行接口/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../命令行接口/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../开发服务器/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../开发服务器/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../在shell中使用Flask/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../在shell中使用Flask/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../部署/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../大型应用/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../API/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7600">
+          <caret line="400" column="13" selection-start-line="400" selection-start-column="13" selection-end-line="400" selection-end-column="13" />
         </state>
       </provider>
     </entry>
