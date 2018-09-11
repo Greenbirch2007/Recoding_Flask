@@ -1,0 +1,29 @@
+Jinja 设置
+
+
+当使用 render_template() 时，扩展名为 .html 、 .htm 、 .xml 和 .xhtml 的模板中开启自动转义。
+当使用 render_template_string() 时，字符串开启 自动转义。
+
+
+标准环境
+config   当前配置对象（ flask.config ）
+
+
+request  当前请求对象（ flask.request ）。 在没有活动请求环境情况下渲染模板时，这个变量不可用。
+
+session  当前会话对象（ flask.session ）。 在没有活动请求环境情况下渲染模板时，这个变量不可用。
+g  请求绑定的全局变量（ flask.g ）。 在没有活动请求环境情况下渲染模板时，这个变量不可用。
+
+url_for()  flask.url_for() 函数。
+
+get_flashed_messages()  flask.get_flashed_messages() 函数
+
+标准过滤器
+在 Flask 中的模板中添加了以下 Jinja2 本身没有的过滤器：
+
+tojson()
+这个函数可以把对象转换为 JSON 格式。如果你要动态生成 JavaScript ，那么 这个函数非常有用。
+
+注意，在 script 标记内部不能转义，因此在 Flask 0.10 之前的版本中， 如果要在 script 标记内部使用这个函数必须用 |safe 关闭转义：
+
+
