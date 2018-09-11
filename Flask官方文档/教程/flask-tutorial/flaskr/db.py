@@ -42,7 +42,9 @@ def init_db(app):
     app.teardown_appcontext(close_db)
     app.cli.add_command(init_db_command)
 
+def get_db():
+    pass
 
 
-
-
+def init_app(app):
+    return app
