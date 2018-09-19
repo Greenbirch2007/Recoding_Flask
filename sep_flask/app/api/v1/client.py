@@ -1,5 +1,5 @@
 
-from app.libs.reqprint import Redprint
+from app.libs.redprint import Redprint
 from flask import request
 
 from app.libs.enums import ClientTypeEnum
