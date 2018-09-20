@@ -21,11 +21,18 @@ class Redprint:
         return decorator
 
     def register(self,bp,url_prefix=None):  # 在這個函數中有了藍圖，可以在這裏完成視圖那函數向紅圖的註冊方法
+        #來一個優化 算了！容易理解最好
+
         for f,rule,options in self.mound: # 序列解包（存入的時候是一個元組的形式，遍歷時自動解包成3個變量）
             endpoint = options.pop("endpoint", f.__name__) #f.__name__ 取視圖函數的名字作爲默認值
             bp.add_url_rule(url_prefix + rule,endpoint,f,**options)
             # 注意路由的註冊額 路由設計從後往前
             #  藍圖的url_prefix/紅圖的url_prefix/視圖函數中的rule
+
+
+
+
+
 
     # url---->endpoint---->viewfunction
 

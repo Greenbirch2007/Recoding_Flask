@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4d992d-db1b-4856-aad5-ca5b750f663d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sep_flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sep_flask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/__init__.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/v1/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/validators/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/gift.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/token.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/secure.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/secure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/enums.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/error.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/error_code.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/libs/redprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/redprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/scope.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/token_auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/book.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/gift.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/validators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/validators/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/validators/form.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sep_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/sep_flask.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,22 +34,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="37" />
+          <entry key="py" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="37" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7348" />
+          <entry key="py" value="9079" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7348" />
+          <entry key="Python" value="9079" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -111,11 +89,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="-80">
               <caret line="14" column="59" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="59" />
               <folding>
                 <marker date="1537427452529" expanded="true" signature="200:1063" ph="..." />
                 <marker date="1537427452529" expanded="true" signature="1080:1085" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/api/v1/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding>
+                <element signature="e#140#167#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/api/v1/book.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="380">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding>
                 <element signature="e#4#31#0" expanded="true" />
               </folding>
@@ -154,49 +154,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/api/v1/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <marker date="1537434118336" expanded="true" signature="129:134" ph="..." />
+                <marker date="1537434118336" expanded="true" signature="129:194" ph="..." />
+                <marker date="1537434118336" expanded="true" signature="129:269" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/v1/user.py">
+        <entry file="file://$PROJECT_DIR$/app/validators/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
-                <element signature="e#1#28#0" expanded="true" />
+                <element signature="e#2#53#0" expanded="true" />
+                <marker date="1537434118972" expanded="true" signature="233:238" ph="..." />
+                <marker date="1537434118972" expanded="true" signature="444:453" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/api/v1/__init__.py">
+        <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <element signature="e#140#167#0" expanded="true" />
-                <marker date="1537429519018" expanded="true" signature="306:358" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/blueprints.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="160" column="58" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/libs/redprint.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-              <folding>
-                <marker date="1537429439953" expanded="true" signature="98:103" ph="..." />
-                <marker date="1537429439953" expanded="true" signature="1012:1018" ph="..." />
-                <marker date="1537429439953" expanded="true" signature="1054:1055" ph="..." />
+                <marker date="1537434119016" expanded="true" signature="198:203" ph="..." />
               </folding>
             </state>
           </provider>
@@ -222,21 +214,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/libs/enums.py" />
         <option value="$PROJECT_DIR$/app/models/base.py" />
         <option value="$PROJECT_DIR$/app/models/user.py" />
         <option value="$PROJECT_DIR$/app/validators/form.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/api/v1/client.py" />
         <option value="$PROJECT_DIR$/app/config/secure.py" />
         <option value="$PROJECT_DIR$/app/config/setting.py" />
         <option value="$PROJECT_DIR$/app/api/v1/books.py" />
         <option value="$PROJECT_DIR$/sep_flask.py" />
         <option value="$PROJECT_DIR$/app/app.py" />
-        <option value="$PROJECT_DIR$/app/api/v1/book.py" />
         <option value="$PROJECT_DIR$/app/libs/redprint.py" />
-        <option value="$PROJECT_DIR$/app/api/v1/__init__.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/book.py" />
         <option value="$PROJECT_DIR$/app/api/v1/user.py" />
+        <option value="$PROJECT_DIR$/app/libs/enums.py" />
+        <option value="$PROJECT_DIR$/app/validators/forms.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/client.py" />
+        <option value="$PROJECT_DIR$/app/api/v1/__init__.py" />
       </list>
     </option>
   </component>
@@ -293,6 +286,12 @@
               <item name="sep_flask" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sep_flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sep_flask" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,13 +411,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6995885" visible="true" weight="0.21363637" />
-      <window_info id="Structure" order="1" sideWeight="0.30041152" side_tool="true" visible="true" weight="0.21363637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8141026" visible="true" weight="0.21363637" />
+      <window_info id="Structure" order="1" sideWeight="0.18589744" side_tool="true" visible="true" weight="0.21363637" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5846154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,13 +450,6 @@
     <entry file="file://$PROJECT_DIR$/app/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/error.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,22 +476,8 @@
     <entry file="file://$PROJECT_DIR$/app/api/v1/gift.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/token.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -544,24 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="934" column="8" selection-start-line="934" selection-start-column="8" selection-end-line="934" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="59" />
-          <folding>
-            <marker date="1537427452529" expanded="true" signature="200:1063" ph="..." />
-            <marker date="1537427452529" expanded="true" signature="1080:1085" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/blueprints.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
@@ -569,33 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/redprint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <marker date="1537429439953" expanded="true" signature="98:103" ph="..." />
-            <marker date="1537429439953" expanded="true" signature="1012:1018" ph="..." />
-            <marker date="1537429439953" expanded="true" signature="1054:1055" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#140#167#0" expanded="true" />
-            <marker date="1537429519018" expanded="true" signature="306:358" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
             <element signature="e#1#28#0" expanded="true" />
           </folding>
@@ -604,10 +542,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/book.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="380">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="e#4#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/redprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <marker date="1537434118824" expanded="true" signature="98:103" ph="..." />
+            <marker date="1537434118824" expanded="true" signature="1038:1049" ph="..." />
+            <marker date="1537434118824" expanded="true" signature="1085:1086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="934" column="8" selection-start-line="934" selection-start-column="8" selection-end-line="934" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/enums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1537434119016" expanded="true" signature="198:203" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validators/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#2#53#0" expanded="true" />
+            <marker date="1537434118972" expanded="true" signature="233:238" ph="..." />
+            <marker date="1537434118972" expanded="true" signature="444:453" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <marker date="1537427452529" expanded="true" signature="200:1063" ph="..." />
+            <marker date="1537427452529" expanded="true" signature="1080:1085" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#140#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <marker date="1537434118336" expanded="true" signature="129:134" ph="..." />
+            <marker date="1537434118336" expanded="true" signature="129:194" ph="..." />
+            <marker date="1537434118336" expanded="true" signature="129:269" ph="..." />
           </folding>
         </state>
       </provider>
