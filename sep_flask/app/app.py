@@ -24,8 +24,19 @@ def register_blueprints(app):  # 注意和app的register_blueprint區分開來
     #第一個app核心對象的register_blueprint方法有一個url_prefix參數，可以指定前綴路由
     #可以借鑑上面的regist_blueprint()的url_prefix參數，在紅圖定義裏面的註冊函數頁設置一個url_prefix參數，這就需要重構源代碼了
 
-
 # 藍圖最好用作模塊級別的拆分，而不是視圖函數級別的拆分！同時路由過長
+
+
+# 在这里把sqlalchemy注册到flask核心对象app上
+
+def register_plugin(app):
+    from app.models.base import db
+    db.init_app(app) # 进行注册
+    with app.app_context():
+        db.create_all() # 来创建所有数据库中的数据表  这里用上下文
+
+
+
 
 def create_app():
     app = Flask(__name__)
@@ -34,4 +45,5 @@ def create_app():
     app.config.from_object('app.config.secure')
 
     register_blueprints(app)  # 定義了函數之後記得調用
+    register_plugin(app)   #将sql注册到核心对象app上之后，在启动文件中调用下
     return app
