@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/API_Pse/.idea/API_Pse.iml" filepath="$USER_HOME$/API_Pse/.idea/API_Pse.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Recoding_Flask.iml" filepath="$PROJECT_DIR$/.idea/Recoding_Flask.iml" />
     </modules>
   </component>

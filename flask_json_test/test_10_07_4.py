@@ -41,10 +41,62 @@ class Js_infos(Base):
             del dict["_sa_instance_state"]
         return dict
 
+class Js_infos_finanData(Base):
+    __tablename__ = 'js_infos_finanData'
+    id = Column(Integer,primary_key=True,nullable=False, autoincrement=True)
+    coding = Column(String(11),nullable=True)
+    industry = Column(String(8),nullable=True)
+    title = Column(String(50),nullable=True)
+    last_price = Column(String(20),nullable=True)
+    market_value = Column(String(11),nullable=True)
+    share_nums = Column(String(30),nullable=True)
+    returns_ratio = Column(String(6),nullable=True)
+    min_callshares = Column(String(11),nullable=True)
 
 
-@app.route('/<int:id>/', methods=['GET'])
-def index(id):
+
+#　字段必须一致！
+@app.route('/js_infos_finanData/<int:id>/', methods=['GET'])
+def index2(id):
+    if id is None:
+        id = 1
+    num = db.session.query(Js_infos_finanData).count()
+    print(num)
+    pages = db.session.query(Js_infos_finanData).paginate(id, 18)
+    return jsonify(bedict2(pages.items))
+#　分页成功！
+def bedict2(a):
+    lic = []
+    for item in a:
+        lic.append(
+            {
+                'id': item.id,
+                'coding': item.coding,
+                'industry': item.industry,
+                'title': item.title,
+                'last_price': item.last_price,
+                'market_value': item.market_value,
+                'share_nums': item.share_nums,
+                'returns_ratio': item.returns_ratio,
+                'min_callshares': item.min_callshares,
+
+            }
+        )
+    return lic
+
+
+
+@app.route('/')
+def index():
+    return '<h1>"欢迎来到接口界面"</h1>'
+
+
+
+
+
+# 这个视图函数成功
+@app.route('/js_infos/<int:id>/', methods=['GET'])
+def index1(id):
     if id is None:
         id = 1
     num = db.session.query(Js_infos).count()
@@ -67,6 +119,14 @@ def bedict1(a):
             }
         )
     return lic
+
+
+
+
+
+
+
+
 
 # 从数据库中一次全部查询展示成功
 @app.route('/comments', methods=['GET'])
