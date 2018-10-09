@@ -17,8 +17,8 @@ def create_blueprint_v1():
 
     bp_v1 = Blueprint('v1',__name__)
     # 直接使用模塊的.實例化對象
-    user.api.register(bp_v1,url_prefix='/user')  # 這裏紅圖的註冊函數直接接受一個藍圖對象，就把紅圖註冊到藍圖對象上了
-    book.api.register(bp_v1,url_prefix='/book')  # 這裏紅圖的註冊函數直接接受一個藍圖對象，就把紅圖註冊到藍圖對象上了
-    client.api.register(bp_v1,url_prefix='/client')
+    user.api.register(bp_v1)  # 這裏紅圖的註冊函數直接接受一個藍圖對象，就把紅圖註冊到藍圖對象上了
+    book.api.register(bp_v1)  # 這裏紅圖的註冊函數直接接受一個藍圖對象，就把紅圖註冊到藍圖對象上了
+    client.api.register(bp_v1)
     return bp_v1
 # 完成了兩個紅圖（book,user） 對 v1藍圖的註冊，下面就要把v1藍圖註冊到flask核心對象上

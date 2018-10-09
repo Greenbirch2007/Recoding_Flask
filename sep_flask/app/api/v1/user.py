@@ -11,7 +11,7 @@ api = Redprint('user')  #實例化一個redprint對象，命名爲user
 #視圖函數的route就是實現了底層視圖函數向上面一層藍圖或之類改寫的紅圖的註冊
 
 # @api.route('/get')
-@api.route('',method=['GET'])
+@api.route('',methods=['GET'])
 def get_user():
     return 'this is set_flask test!'
 

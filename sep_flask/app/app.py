@@ -7,6 +7,7 @@ from flask import Flask
 
 #只有把藍圖註冊到flask的核心對象app上，才能使得藍圖生效
 def register_blueprints(app):  # 注意和app的register_blueprint區分開來
+
     # from app.api.v1.user import user # 引入實例化在user上的藍圖，
     # from app.api.v1.book import book # 引入實例化在book上的藍圖，
     # app.register_blueprint(user)  #再利用核心對象app的藍圖註冊方法直接對接user藍圖對象

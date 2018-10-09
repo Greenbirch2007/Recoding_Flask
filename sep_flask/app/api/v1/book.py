@@ -18,7 +18,7 @@ api = Redprint('book')  #實例化一個redprint對象，命名爲book
 
 # 裝飾器都是用到了實例化對象的route方法
 # @api.route('/get')
-@api.route('',method=['GET'])
+@api.route('',methods=['GET'])
 def get_book():
     return 'get book!'
 #　不能用動詞
@@ -31,6 +31,6 @@ def get_book():
 #这个需要考虑业务逻辑 route()是一种带参数的装饰器
 
 # @api.route('/create')
-@api.route('',method=['POST'])
+@api.route('',methods=['POST'])
 def create_book():
     return 'create book!'
