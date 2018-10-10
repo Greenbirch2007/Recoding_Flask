@@ -1,8 +1,9 @@
 from sqlalchemy import Column, Integer, String, SmallInteger
 from werkzeug.security import generate_password_hash
 from app.models.base import Base, db
-
-
+# 事先在mysql中已经创建了数据库sep_flask
+# 要在启动服务器的情况下来访问模型！
+# 在用户注册时卡了壳！
 class User(Base):# User还需要继承一些基类，具有一些特征！
     id = Column(Integer,primary_key=True)
     email = Column(String(24),unique=True,nullable=False)

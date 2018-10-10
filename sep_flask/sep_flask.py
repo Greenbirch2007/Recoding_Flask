@@ -1,10 +1,10 @@
 
 
-# 入口文件
+# 入口文件  出现了循环导入的问题！？
 # 在入口文件中調用在app/app.py實例化flask核心對象app
 
 
-from app.app import create_app
+from app.app_ import create_app
 
 # 調用實例化的app
 app = create_app()

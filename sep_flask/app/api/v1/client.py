@@ -1,23 +1,38 @@
-from flask import request
+from flask import request, flash
 
 from app.libs.enums import ClientTypeEnum
 from app.libs.redprint import Redprint
 from app.models.user import User
 from app.validators.forms import ClientForm, UserEmailForm
 
-api = Redprint('client')
+from sep_flask.app.models.base import db
 
+api = Redprint('client')
+# 这个视图函数就没有对数据库进行操作！　装逼装的都不认识了！没有必要！
 @api.route('/register',methods=['POST'])
 def create_client():
-    data = request.json()   # 在这里接收参数
-
+    data = request.get_json()  # 在这里接收参数
     form = ClientForm(data=data)   # 在这里校验参数（类似爬虫里面的解析） 在WTForms源码中
     if form.validate():  # 执行校验
         #如果通过校验了就可以进行注册了 羡慕就是注册方法，用字典触发字典的值，也就是那个注册函数
         promise = {
             ClientTypeEnum.USER_EMAIL:__register_user_by_email
         }
-        promise[form.type.data]() # 注册方式，枚举类型，作为键传入，然后通过字典，拿到字典的值，从而完成注册函数。都是把函数拆分括号玩的
+        promise[form.type.data]()
+        # u = User(email=form.email.data,
+        #          _password=form.secret.data,
+        #          nickname=form.email.data)
+        # # 将用户对象保存到数据库
+        # db.session.add(u)
+        # # 下面生成token需要用户id，此时还没有id，需要手动提交
+        # db.session.commit()
+
+        # 提示用户下一步操作
+        # flash('注册成功')
+
+
+
+        # 注册方式，枚举类型，作为键传入，然后通过字典，拿到字典的值，从而完成注册函数。都是把函数拆分括号玩的
     return '注册成功'
 # 总  分   restful 要求输入（注册），输出（反应到前端）都是json格式的
 
@@ -25,10 +40,10 @@ def create_client():
 
 def __register_user_by_email(form): # 从form的验证器中获取注册模型需要参数
     #实例化一个UserEmailForm  # request.json['nickname']
-    form = UserEmailForm(data=request.json)
+    form = UserEmailForm(data=request.json)  #实例化UserEmailForm
     if form.validate():
         User.register_by_email(form.nickname.data,form.account.data,form.secret.data)
-    pass
+
     #如果是后一种接收参数的方式，验证参数的data方式只需要传入data即可
     # data = request.args.to_dict()
     # form = ClientForm(data)
