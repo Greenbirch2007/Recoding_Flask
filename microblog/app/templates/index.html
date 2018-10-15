@@ -1,24 +1,30 @@
-<!DOCTYPE html>
-{% extends "base.html"%}
+<!-- extend base layout -->
+{% extends "base.html" %}
+
 {% block content %}
-<h1>Hi,{{user.nickname}}!</h1>
+<h1>Hi, {{g.user.nickname}}!</h1>
+<form action="" method="post" name="post">
+    {{form.hidden_tag()}}
+    <table>
+        <tr>
+            <td>Say something:</td>
+            <td>{{ form.post(size = 30, maxlength = 140) }}</td>
+            <td>
+            {% for error in form.errors.post %}
+            <span style="color: red;">[{{error}}]</span><br>
+            {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Post!"></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
 {% for post in posts %}
-<div><p>{{post.author.nickname}} says:<b>{{post.body}}</b></p></div>
+<p>
+  {{post.author.nickname}} says: <b>{{post.body}}</b>
+</p>
 {% endfor %}
 {% endblock %}
-<html lang="en">
-<head>
-    {% if title %}
-    <meta charset="UTF-8">
-    <title>{{title}} - microblog</title>
-    {% else %}
-    <title>Welcome to microblog</title>
-    {% endif %}
-</head>
-<body>
-<h1>Hi, {{user.nickname}}!</h1>
-{% for post in posts %}
- <p>{{post.author.nickname}} says: <b>{{post.body}}</b></p>
- {% endfor %}
-</body>
-</html>
