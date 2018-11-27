@@ -1,0 +1,16 @@
+
+批量创建py文件(linux命令)
+
+touch file.{1..5}.py
+
+
+
+
+批量创建文件夹
+
+themes = ['第１章初识Python Web开发'，‘]
+
+base = "/home/karson/Recoding_Flask/Flask Web开发基于Python的web应用开发/"
+for i in themes:
+    file_name = base + str(i)
+    os.mkdir(file_name)

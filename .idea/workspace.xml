@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60593118-ff58-4544-9831-b5efb46fc7a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Recoding_Flask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Recoding_Flask.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sep_flask/app/api/v1/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/sep_flask/app/api/v1/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sep_flask/app/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sep_flask/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/sep_flask/app/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sep_flask/sep_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/sep_flask/sep_flask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20160808181730577.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flask大型项目的文件结构.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_api_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest_api_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/功能实现为主导改写资料代码块(Flask）.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度截图_选择区域_20181010230528.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/豆瓣读书－flask.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/７月老师源代码的结构解析.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ＡＰＩ最好有文档，也利于自己编程.xls" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,39 +47,45 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="4" />
-          <entry key="py" value="21" />
-          <entry key="txt" value="1" />
+          <entry key="jpeg" value="1" />
+          <entry key="log" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="27" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="21" />
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="120" />
-          <entry key="py" value="16561" />
-          <entry key="txt" value="141" />
+          <entry key="log" value="2" />
+          <entry key="py" value="17152" />
+          <entry key="txt" value="184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="120" />
-          <entry key="PLAIN_TEXT" value="141" />
-          <entry key="Python" value="16561" />
+          <entry key="PLAIN_TEXT" value="186" />
+          <entry key="Python" value="17152" />
         </counts>
       </usages-collector>
     </session>
@@ -115,45 +131,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sep_flask/sep_flask.py">
+        <entry file="file://$PROJECT_DIR$/note.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sep_flask/app/app_.py">
+        <entry file="file://$PROJECT_DIR$/notes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/user.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="e#140#167#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="176" selection-start-line="9" selection-start-column="176" selection-end-line="9" selection-end-column="176" />
             </state>
           </provider>
         </entry>
@@ -189,9 +179,7 @@
         <option value="$PROJECT_DIR$/传统Flask项目目录结构/projectname/tests/test1.py" />
         <option value="$PROJECT_DIR$/传统Flask项目目录结构/projectname/config.py" />
         <option value="$PROJECT_DIR$/传统Flask项目目录结构/projectname/manage.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/rest_api_test.py" />
         <option value="$PROJECT_DIR$/Flask官方文档/快速上手/templates/hello.html" />
         <option value="$PROJECT_DIR$/Flask官方文档/快速上手/templates/login.html" />
         <option value="$PROJECT_DIR$/Flask官方文档/快速上手/templates/page_not_found.html" />
@@ -214,6 +202,13 @@
         <option value="$PROJECT_DIR$/sep_flask/app/app.py" />
         <option value="$PROJECT_DIR$/sep_flask/sep_flask.py" />
         <option value="$PROJECT_DIR$/sep_flask/app/app_.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/rest_api_test.py" />
+        <option value="$PROJECT_DIR$/app.log" />
+        <option value="$PROJECT_DIR$/flask_api_test.py" />
+        <option value="$PROJECT_DIR$/flask_web实战练习/t_11_27_1.py" />
+        <option value="$PROJECT_DIR$/note.txt" />
+        <option value="$PROJECT_DIR$/notes.py" />
       </list>
     </option>
   </component>
@@ -244,64 +239,6 @@
               <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="sep_flask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="sep_flask" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="sep_flask" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="sep_flask" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="web1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Flask" type="462c0819:PsiDirectoryNode" />
-              <item name="传统Flask项目目录结构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (PYTHON36) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (PYTHON36) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (PYTHON36) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="flask" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -312,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/API_Pse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -327,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sep_flask">
+  <component name="RunManager" selected="Python.notes">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_Pse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -350,6 +287,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recoding_Flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sep_flask" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recoding_Flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -364,28 +322,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sep_flask/sep_flask.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Recoding_Flask" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web1/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -440,18 +376,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.test_10_07_3" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.test_10_07_4" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.sep_flask" />
+      <item itemvalue="Python.notes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.notes" />
         <item itemvalue="Python.sep_flask" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test_10_07_4" />
         <item itemvalue="Python.test_10_07_3" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -469,15 +405,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="850" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49447513" visible="true" weight="0.15136299" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49447513" visible="true" weight="0.15075758" />
       <window_info id="Structure" order="1" sideWeight="0.5055249" side_tool="true" weight="0.15136299" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32991454" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0041841003" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3666093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39191073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,81 +464,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rest_api_test.py</url>
-          <line>205</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rest_api_test.py</url>
-          <line>187</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rest_api_test.py</url>
-          <line>192</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rest_api_test.py</url>
-          <line>178</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/helpers.py" />
-    <entry file="file://$USER_HOME$/Python3.6_BIGOEN/lib/python3.6/site-packages/flask/globals.py" />
-    <entry file="file://$PROJECT_DIR$/Flask官方文档/快速上手/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask官方文档/快速上手/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask官方文档/快速上手/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask官方文档/快速上手/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="330" column="10" selection-start-line="330" selection-start-column="10" selection-end-line="330" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask官方文档/快速上手/templates/page_not_found.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flask官方文档/教程/example.py" />
     <entry file="file://$PROJECT_DIR$/Flask官方文档/教程/flask-tutorial/hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_api_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Flask官方文档/教程/notes.txt">
@@ -633,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1181">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_json_test/test_10_07_3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1028">
@@ -651,13 +512,6 @@
     <entry file="file://$USER_HOME$/API_Pse/sqlalchempy_test/test_10_05_5.py" />
     <entry file="file://$USER_HOME$/API_Pse/test_flask-sqlalchemy/test_10_02_2.py" />
     <entry file="file://$USER_HOME$/API_Pse/sqlalchempy_test/test_10_05_2.py" />
-    <entry file="file://$PROJECT_DIR$/rest_api_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1451">
-          <caret line="274" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_json_test/test_10_07_5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -714,27 +568,8 @@
     <entry file="file://$PROJECT_DIR$/sep_flask/app/libs/redprint.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/werkzeug/serving.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13794">
-          <caret line="732" column="37" selection-start-line="732" selection-start-column="37" selection-end-line="732" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/flask/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/werkzeug/serving.py" />
+    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/flask/globals.py" />
     <entry file="file://$PROJECT_DIR$/sep_flask/app/models/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -746,36 +581,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#137#166#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/flask/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/flask/__init__.py" />
     <entry file="file://$PROJECT_DIR$/sep_flask/app/validators/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="8" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#2#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/werkzeug/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/PYTHON36/lib/python3.6/site-packages/werkzeug/local.py" />
     <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sep_flask/app/app.py" />
+    <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -784,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sep_flask/app/api/v1/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="187">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="e#140#167#0" expanded="true" />
@@ -792,27 +621,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sep_flask/app/app.py">
+    <entry file="file://$PROJECT_DIR$/sep_flask/app/app_.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#79#102#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sep_flask/sep_flask.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="34">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sep_flask/app/app_.py">
+    <entry file="file://$PROJECT_DIR$/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="2244">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest_api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20160808181730577.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Flask大型项目的文件结构.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_web实战练习/t_11_27_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="176" selection-start-line="9" selection-start-column="176" selection-end-line="9" selection-end-column="176" />
         </state>
       </provider>
     </entry>
