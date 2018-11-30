@@ -39,3 +39,32 @@ DATABASE = 'r'
 USERNAME = 'web'
 PASSWORD = 'web'
 DB_URI = 'mysql://{}:{}@{}/{}'.format(USERNAME,PASSWORD,HOSTNAME,DATABASE)
+# orm简介
+# ORM,对象关系映射，通过它可以直接还是用Python类的方式做数据库开发，而不再直接写原生的sql语句。通过把表映射成类，把行作为实例，把字段作为属性，ORM在执行
+# 对象操作的时候会把对应的操作转换为数据库原生语句的方式来完成数据库开发工作
+
+#ORM的优点：1. 易用性 2.  性能损耗小  3. 设计灵活  4. 可移植性
+# 使用sqlalchemy
+
+# 连接数据库  首先要连接数据库
+from sqlalchemy import create_engine
+engine = create_engine('sqlite://',echo=False) #  如果需要详细的输出，可以设置echo=True
+with engine.connect() as con:
+    rs = con.execute('SELECT 1')
+    print(rs.fetchone())
+
+# create_engine传入了一个数据库的URI，sqlite://表示使用了一个sqlite的内存型数据库。
+#    dialect+driver://username:password@host:port/database
+#
+# dialect是数据库的实现，drive是python对应的驱动。如果不指定，会默认mysqldb驱动
+
+# 使用原生sql  把之前的curd改写成使用sqlalchemy
+
+# 它与之前的mysqldb的例子不同之处在于，结果通过返回值获取，不再需要执行
+# 使用表达式  sqlalchemy支持使用表达式的方式来操作数据库（exp_sql） 跳过
+# 使用ORM,SHI SQLALCHEMY
+# 定义的User类会生成一张表，__tablename__的值就是表明
+# 通过sessionmakeer创建一个会话，会话提供了事务控制的支持。模型实例对象本身独立 存在，如果要让其他修改(创建)生效，需要吧他们加入某个会话；如果不需要
+# 对其生效就从会话中由session管理的实例对象。执行session.commit()时修改被提交到数据库，执行session.rollback()可以回滚变更
+
+# 数据库管理  用户量大，并发高时，不推荐使用外键来关联，数据的一致性和完整性问题可以通过事务保证

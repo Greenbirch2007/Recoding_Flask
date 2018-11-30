@@ -1,7 +1,8 @@
 
-DEBUG=False
+from consts import DB_URI
 
-try:
-    from local_settings import *
-except ImportError:
-    pass
+DEBUG = True
+
+SQLALCHEMY_DATABASE_URI = DB_URI
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+
