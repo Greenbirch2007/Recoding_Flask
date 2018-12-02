@@ -21,3 +21,38 @@ db = SQLAlchemy()
 
 # 注意，drop_all,create_all要在定义model之后再执行。flask-sqlalchemy 要求执行的时候有应用上下文，需要使用with app.app_context()创建应用上下文
 # 记录慢查询
+
+# 1.  启用查询记录功能
+#　2.给app.logger添加一个记录日志到名为slow_query.log的文件的处理器，这个日志会按大小切分
+#　３．添加after_request钩子，每次请求结束后获取执行的查询语句，假如超过阈值则记录日志
+#　理解context（上下文）
+# werkzeug的Local
+# werkzeug自己实现了本地新城
+# werkzeug还实现了两种数据结构:LocalStack,LocalProxy
+
+from flask import Flask,request
+
+app = Flask(__name__)
+
+
+@app.route('/people')
+def people():
+    name = request.args.get('name')
+    return  name
+
+if __name__ =='__main__':
+    app.run()
+# flask.request 就是一个获取名为_request_ctx_stack的栈顶对象的LocalProxy实例
+
+# 使用 上下文
+# 应用上下文的典型应用场景是缓存一些在发生请求之前要使用的资源,比如生成数据库连接和缓存一些对象:请求上下文发生在http请求开始,WSGI Server调用Flask.__call__()之后
+# 应用上下文并不是应用启动之后生成的唯一上下文
+# Flask中有4个上下文变量
+# 1. flask,current_app:应用上下文.它是当前app实例对象
+# 2. flask.g : 应用上下文.处理请求时用作临时存储的对象
+# 3.flask.request:请求上下文.它封装了客户端发出的http请求中的内容
+# 4. flask.session:请求上下文,它存储了用户会话
+
+#  首页  重新设置图片页,下载页  预览页 ,短链接页
+
+
